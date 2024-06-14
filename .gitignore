@@ -1,0 +1,8 @@
+# Ignore config file with passwords
+config.ini
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
