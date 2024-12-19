@@ -32,7 +32,7 @@ try:
     # print(columns)  #[{'name': 'post_id', 'type': INTEGER(), 'nullable': False, 'default': None, 'autoincrement': False, 'comment': None}, {'name': 'category_id', 'type': INTEGER(), 'nullable': False, 'default': None, 'autoincrement': False, 'comment': None}]
 
 except UnicodeDecodeError as e:
-    print(f"DB connection error: {e}")
+    print(e)
 
 # connection = psycopg2.connect(user=user, password=password)
 # connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
